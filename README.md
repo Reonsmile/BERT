@@ -1,3 +1,0 @@
-# BERT
-# BERT
-# BERT

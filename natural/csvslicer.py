@@ -13,10 +13,10 @@ prevPage = -1
 
 # １行ずつループ
 for line in fin:
-    # 整数÷整数だと切り捨てられるよ
+    # 整数÷整数だと切り捨てられるよここの数字で何行ずつ区切るか決める
     page = count / 1
     
-    # 10行処理したら page が変わるから、そこで出力ファイルを変えるよ
+    # 上記の行処理したら page が変わるから、そこで出力ファイルを変えるよ
     if page != prevPage:
         fout = codecs.open('natural' + str(page + 1) + ".txt", 'w', 'utf-8')
     
